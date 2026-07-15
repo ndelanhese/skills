@@ -1,0 +1,41 @@
+name: Skill bug report
+description: Report incorrect, misleading, or broken skill behavior
+title: "[bug] "
+labels:
+  - skill
+  - bug
+  - needs-review
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      placeholder: independent-qa-challenge
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt and context
+      description: Include sanitized prompt, relevant files, and runtime.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Steps or minimal artifact to reproduce the issue.
+    validations:
+      required: true

@@ -1,0 +1,48 @@
+name: Skill proposal
+description: Propose a new skill for the collection
+title: "[skill] "
+labels:
+  - skill
+  - new-skill
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe one focused, reusable agent capability.
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: Lowercase hyphenated name.
+      placeholder: independent-qa-challenge
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem solved
+      description: What recurring task or failure mode does this skill address?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Proposed workflow
+      description: Explain the steps, constraints, and expected output.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example prompts
+      description: Provide realistic prompts that should trigger the skill.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
+      description: How will skill be tested against realistic tasks?
+    validations:
+      required: true
