@@ -34,7 +34,8 @@ Includes:
 └── skills/
     └── <skill-name>/
         ├── SKILL.md
-        ├── openai.yaml
+        ├── agents/
+        │   └── openai.yaml
         ├── references/     # optional
         ├── scripts/        # optional
         └── assets/         # optional

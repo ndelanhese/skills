@@ -7,7 +7,8 @@ Create one directory under `skills/` using lowercase letters, digits, and hyphen
 ```text
 skills/my-skill/
 ├── SKILL.md
-├── openai.yaml
+├── agents/
+│   └── openai.yaml
 ├── references/   # optional
 ├── scripts/      # optional
 └── assets/       # optional
