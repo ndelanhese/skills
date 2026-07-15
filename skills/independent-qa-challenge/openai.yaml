@@ -1,0 +1,4 @@
+interface:
+  display_name: "Independent QA Challenge"
+  short_description: "Challenge features with fair, adversarial QA"
+  default_prompt: "Use $independent-qa-challenge to challenge this task and find fair, evidence-based test gaps."
